@@ -1,0 +1,5 @@
+
+customtkinter
+mysql-connector-python
+arabic-reshaper
+python-bidi
