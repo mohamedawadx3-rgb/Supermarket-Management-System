@@ -101,7 +101,7 @@ Users can change the application language through the Settings page.
 
 Author
 
-Engineer Mohamed Awad
+Eng Mohamed Awad
 
 ---
 
