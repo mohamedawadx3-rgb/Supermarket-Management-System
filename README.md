@@ -1,43 +1,39 @@
-Supermarket Management System
+# Supermarket Management System
 
-A desktop-based Supermarket Management System developed using Python, CustomTkinter, and MySQL. The application provides an organized graphical interface for managing supermarket operations, maintaining records, tracking inventory, and monitoring sales activities.
+A desktop-based **Supermarket Management System** developed using Python, CustomTkinter, and MySQL. The application provides a graphical user interface for managing supermarket operations, organizing data, and monitoring sales and inventory.
 
-Features
+## Features
 
-- Dashboard: Displays key supermarket statistics, including product count, inventory quantity, customer count, monthly sales, and recent transactions.
-- Products Management: Add, update, delete, search, and display product information.
-- Categories Management: Organize and manage product categories.
-- Sales Management: Manage sales transactions and related sale details.
-- Customers Management: Add, update, delete, search, and manage customer records.
-- Suppliers Management: Maintain supplier information and records.
-- Inventory Management: Monitor stock quantities and inventory movements.
-- Reports & Statistics: View sales reports and business statistics.
-- Database Management: Automatically initialize the database and create the required tables.
-- Settings: Change the application language and test the database connection.
-- Bilingual Interface: Supports both Arabic and English.
-- Data Validation: Validate user inputs and prevent invalid values in supported forms.
-- Search Functionality: Quickly find records using search fields.
+- **Dashboard:** View important supermarket statistics and recent sales.
+- **Products Management:** Add, update, delete, search, and display products.
+- **Categories Management:** Manage product categories.
+- **Sales Management:** Manage sales transactions.
+- **Customers Management:** Store and manage customer information.
+- **Suppliers Management:** Manage supplier information.
+- **Inventory Management:** Monitor inventory information and movements.
+- **Reports:** View sales reports and statistics.
+- **Settings:** Change the application language and test the database connection.
+- **Bilingual Interface:** Supports English and Arabic.
 
-Technologies Used
+## Technologies Used
 
 - Python
-- Object-Oriented Programming (OOP)
 - CustomTkinter
 - Tkinter
-- MySQL / MariaDB
+- MySQL
 - MySQL Connector
 - Arabic Reshaper
 - Python Bidi
 
-Project Structure
+## Project Structure
 
+```text
 supermarket_management_sestem/
 │
 ├── main.py
 ├── app.py
 ├── database.py
 ├── language.py
-│
 ├── dashboard.py
 ├── products.py
 ├── categories.py
@@ -52,50 +48,61 @@ supermarket_management_sestem/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
-Requirements
+## Requirements
 
 - Python 3.10 or later
 - XAMPP or another MySQL/MariaDB server
-- Required Python libraries listed in "requirements.txt"
+- Required Python libraries listed in `requirements.txt`
 
-Installation and Setup
+## Installation and Setup
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone YOUR_REPOSITORY_URL
+```
 
-2. Navigate to the Project Directory
+### 2. Navigate to the Project Directory
 
+```bash
 cd supermarket_management_sestem
+```
 
-3. Install Dependencies
+### 3. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-4. Start the Database Server
+### 4. Start the Database Server
 
 - Open XAMPP.
 - Start MySQL.
-- Make sure the database connection settings in "database.py" match your local environment.
+- Make sure the database connection settings in `database.py` match your local environment.
 
 The application initializes the database and creates the required tables automatically when it starts.
 
-5. Run the Application
+### 5. Run the Application
 
+```bash
 python main.py
+```
 
-Database
+## Database
 
 The project uses MySQL/MariaDB to store application data.
 
-Database Name:
+The database name is:
 
+```text
 supermarket_system
+```
 
-The database tables are initialized automatically through the "database.py" module.
+Database tables are initialized automatically through the `database.py` module.
 
-Language Support
+## Language Support
 
 The application supports:
 
@@ -104,13 +111,11 @@ The application supports:
 
 Users can change the application language through the Settings page.
 
-Author
-
-Engineer Mohamed Awad
+## Author ENG MOHAMED AWAD
 
 Developed as an academic Python Management System project.
 
 ---
 
-Supermarket Management System
+**Supermarket Management System**  
 Python | CustomTkinter | MySQL
